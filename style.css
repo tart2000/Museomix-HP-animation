@@ -1,0 +1,41 @@
+
+@font-face {
+	font-family: 'museomix';
+	src: url('museomix.ttf');
+}
+
+.hexa-cont {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.hexa-text {
+	position: relative;
+	top: -220px;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	-ms-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+	opacity: 0;
+	height: 220px;
+	vertical-align: middle;
+	background-color: rgba(255,255,255,0.9);
+}
+
+.hexa-text:hover {
+	opacity: 1;
+}
+
+.hexa-title {
+	position: relative;
+	top:50%; 
+}
+
+h6 {
+	font-family: 'museomix' !important;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	font-size: 24px !important;
+}
