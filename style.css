@@ -1,21 +1,16 @@
-
-@font-face {
-	font-family: 'museomix';
-	src: url('museomix.ttf');
-}
 #anim-hp {
 	margin: 0 auto;
     max-width: 800px;
     text-align: center;
     width: 90%;
 }
-.hexa-cont {
+#anim-hp .hexa-cont {
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
-.hexa-text {
+#anim-hp .hexa-text {
 	position: relative;
 	top: -220px;
 	-webkit-transition: opacity 0.5s ease-in-out;
@@ -29,11 +24,11 @@
 	background-color: rgba(255,255,255,0.9);
 }
 
-.hexa-text:hover {
+#anim-hp .hexa-text:hover {
 	opacity: 1;
 }
 
-.hexa-title {
+#anim-hp .hexa-title {
 	position: relative;
 	top:40%; 
 }
@@ -44,14 +39,14 @@
 	margin-bottom: 0px !important;
 	font-size: 24px !important;
 }
-.hexas {
+#anim-hp .hexas {
 	display: inline-block;
     height: 220px;
     vertical-align: top;
     width: 30%;
 }
 @media screen and (max-width: 768px) {
-	.hexas {
+	#anim-hp .hexas {
 		display:block;
 		width: auto;	
 	}
